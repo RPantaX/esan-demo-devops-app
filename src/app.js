@@ -5,7 +5,7 @@ const app = express();
 // Ruta principal: lo que se ve al abrir la app
 app.get("/", (req, res) => {
   res.json({
-    mensaje: "¡Hola desde el Grupo 4! 🚀",
+    mensaje: "¡Hola desde el Grupo 4 Prueba! 🚀",
     version: process.env.APP_VERSION || "local",
   });
 });
